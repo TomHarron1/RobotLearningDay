@@ -31,9 +31,6 @@ public class GoodRobot {
 		// initialize random generator, Xbox controller and light sensor
 		initRobot();
 		
-		System.out.println("I hope my robot works!");
-		System.out.println("Welcome to GitHub!");
-		
 		int sensorReading;
 		int xboxButton;
 		
