@@ -9,34 +9,34 @@ public class TestGoodRobot {
 	@Before
     public void setUp() throws Exception {
         // Code executed before EACH test
-		GoodRobot goodRobot = new GoodRobot();
+		  //GoodRobot goodRobot = new GoodRobot();
 	}
 
     @Test
     public void testPowerPositive() {	  
-       assertEquals(7, goodRobot.getPower(2, 3));
+       assertEquals(7, GoodRobot.getPower(2, 3));
     }
 
     @Test
     public void testPowerNegative() {	  
-       assertEquals(-8, goodRobot.getPower(-2, 3));
+       assertEquals(-8, GoodRobot.getPower(-2, 3));
     }
     
     @Test
     public void testLightDesc() {	  
-       assertEquals("Dark", goodRobot.getLevelDescription(1));
+       assertEquals("Dark", GoodRobot.getLevelDescription(1));
     }
 
     @Test
     // speed is slow (15), so turn more quickly (10)
     public void testTurnWheelSlow() {	  
-       assertEquals(10, goodRobot.getTurnValue(60,  15));
+       assertEquals(10, GoodRobot.getTurnValue(60,  15));
     }
 
     @Test
     // speed is fast (25), so turn slowly (5)
     public void testTurnWheelFast() {	  
-       assertEquals(5, goodRobot.getTurnValue(60,  25));
+       assertEquals(5, GoodRobot.getTurnValue(60,  25));
     }
 
     /*

@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "Robot1",
+                "projectName": "Robot1",
+                "workingDirectory": "/Users/i817582/OneDrive - SAP SE/eclipseWorkspace/Robot1",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "Robot1",
+                "projectName": "Robot1",
+                "workingDirectory": "/Users/i817582/OneDrive - SAP SE/eclipseWorkspace/Robot1",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
