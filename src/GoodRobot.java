@@ -111,13 +111,17 @@ public class GoodRobot {
 
 		System.out.format("Get turn value for angle: %5.2f, speed: %5.1f\n", angle, speed);
 		// at lower speed, turn 10
-		if (angle > 45 && (speed > 10 & speed < 20)) {
+		if (angle > 45 && (speed > 10 && speed < 20)) {
 			turnValue = 10;
+			return(turnValue);
 		}
 		// at higher speed, turn only 5
-		if (angle > 45 && speed >= 20) {
+		if (angle > 45 && (speed >= 20 && speed<30)) {
 			turnValue = 5;
-		}
+		
+		} else {
+			turnValue=2;
+			}
 		return(turnValue);
 	}
 /*
@@ -138,19 +142,19 @@ public class GoodRobot {
 	// return:   81   	(which is, 3 * 3 * 3 * 3) 
 	static int getPower(int number, int exponent) {
 		int answer = 1;
-		int loop = 1;
+		//int loop = 1;
 		// repeatedly multiply 'exponent' times
-		while (loop <= exponent) {
+		/*while (loop <= exponent) {
 			answer = answer * number;
 			loop++;
-		}
+		}*/
 		
-		/* another implementation
-		   int answer = 1;
-		   for (int loop = 1; loop < exponent; loop++) {
+		// another implementation
+		  // int answer = 1;
+		   for (int loop = 1; loop <= exponent; loop++) {
 		       answer = answer * number;
 		   }   
-		*/
+		
 		
 		return(answer);
 	}

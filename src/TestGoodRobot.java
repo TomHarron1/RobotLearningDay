@@ -14,9 +14,14 @@ public class TestGoodRobot {
 
     @Test
     public void testPowerPositive() {	  
-       assertEquals(7, GoodRobot.getPower(2, 3));
+       assertEquals(8, GoodRobot.getPower(2, 3));
     }
-
+    
+    @Test
+    public void testPowerPositive1() {	  
+       assertEquals(256, GoodRobot.getPower(2, 8));
+    }
+    
     @Test
     public void testPowerNegative() {	  
        assertEquals(-8, GoodRobot.getPower(-2, 3));
@@ -39,13 +44,13 @@ public class TestGoodRobot {
        assertEquals(5, GoodRobot.getTurnValue(60,  25));
     }
 
-    /*
+    
     @Test
     // speed is very fast (35), so turn very slowly (2)
     public void testTurnWheelReallySlow() {	  
        assertEquals(2, goodRobot.getTurnValue(60, 35));
     }
-    */
+    
 
     /***** OTHER JUNIT assertion commands 
       1)  assert an expression is true 
