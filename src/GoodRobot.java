@@ -31,6 +31,9 @@ public class GoodRobot {
 		// initialize random generator, Xbox controller and light sensor
 		initRobot();
 		
+		// display a welcome message
+		System.out.println("welcome!");
+		
 		int sensorReading;
 		int xboxButton;
 		
