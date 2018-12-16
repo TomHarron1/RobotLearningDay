@@ -30,7 +30,7 @@ public class GoodRobot {
 	public static void main(String[] args) {
 		// initialize random generator, Xbox controller and light sensor
 		initRobot();
-		
+		//
 		// display a welcome message
 		System.out.println("welcome!");
 		
