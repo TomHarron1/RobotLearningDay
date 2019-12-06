@@ -35,7 +35,7 @@ public class MotorTest {
         // retrieve the name from the motor object, confirm it is what we set
         assertEquals(4.5, motor.getMotorPosition(), 0);
 
-        long x = 5;
-        assertEquals(x, 5L);
+        long x = 6;
+        assertEquals(x, 6L);
     }
 }
