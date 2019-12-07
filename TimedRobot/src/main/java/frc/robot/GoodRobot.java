@@ -68,6 +68,8 @@ public class GoodRobot {
 				if (sensorReading == LIGHT_DIM || sensorReading == LIGHT_BRIGHT) {
 					System.out.println("  Level=Dim or Glowing");
 					
+
+					// comment here
 					int answer;
 					int counter = 1;
 					while (counter <= 3) {
@@ -98,6 +100,7 @@ public class GoodRobot {
 				}
 			}
 
+			// go to sleep for 3 seconds
 			try {
 				Thread.sleep(3000);
 			}
