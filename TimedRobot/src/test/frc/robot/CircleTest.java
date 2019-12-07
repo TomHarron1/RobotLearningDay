@@ -17,7 +17,7 @@ public class CircleTest {
         Circle circleBig = new Circle(10);
         
         double theArea = circleBig.getArea();
-        assertEquals(98, circleBig.getArea(), 2);
+        assertEquals(314.15926,theArea, 0);
     }
 
     @Test

@@ -13,7 +13,7 @@ public class Circle {
 
     // using the object's 'radius' value, return Area
     public double getArea() {
-        return(PI * PI * this.radius);
+        return(PI * this.radius * this.radius);
     }
 
     // update the 'radius' value in this object
